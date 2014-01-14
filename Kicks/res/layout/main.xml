@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+        <Button android:id="@+id/button1" android:layout_alignParentLeft="false" android:layout_centerInParent="true" android:text="@string/count" android:textSize="50sp" android:onClick="goKick" android:layout_height="100dip" android:layout_width="300dip" android:layout_margin="30dip" android:layout_gravity="center|center_vertical|center_horizontal">
+        </Button>
+        <Button android:id="@+id/graphButton" android:text="@string/graph" android:layout_below="@+id/button1" android:layout_alignLeft="@+id/button1" android:height="100dip" android:onClick="goGraph" android:textSize="30sp" android:layout_height="75dip" android:layout_marginTop="30dip" android:layout_gravity="center_horizontal|bottom" android:layout_margin="20sp" android:layout_width="250dip"></Button>
+        <Button android:layout_height="75sp" android:onClick="goInstructions" android:textSize="30sp" android:text="@string/instructions" android:id="@+id/button2" android:layout_width="250dip" android:layout_gravity="center_horizontal|bottom"></Button>
+    </LinearLayout>
+
+
+
+
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent" android:orientation="vertical">
+       <TextView android:layout_height="wrap_content" 
+       android:layout_width="wrap_content" 
+       android:text="@string/alarm_title" 
+       android:id="@+id/alarmTitle" 
+       android:layout_gravity="center_horizontal" 
+       android:textStyle="bold"
+       android:textSize="20sp" android:layout_marginBottom="20sp"></TextView>
+       <TimePicker android:id="@+id/alarmTime" android:clickable="true" android:layout_gravity="center|center_vertical" android:saveEnabled="true" android:layout_height="wrap_content" android:layout_width="wrap_content"></TimePicker>
+       <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:orientation="vertical" android:layout_marginLeft="35sp">       
+       <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/alarm_on" android:layout_margin="10sp" android:id="@+id/alarm_on"></CheckBox>
+       <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/sound" android:layout_margin="10sp" android:id="@+id/sound_on"></CheckBox>
+       <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/vibrate" android:layout_margin="10sp" android:id="@+id/vibrate_on"></CheckBox>
+  		</LinearLayout>
+   </LinearLayout>
+
+
+
+

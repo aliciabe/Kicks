@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Kicks!</string>
+    <string name="app_name">Kicks Count!</string>
+    <string name="count">Count Kicks</string>
+    <string name="kick">Kick!</string>
+    <string name="instructions">Instructions</string>
+    <string name="finishKicks">You have reached your required number of kicks!  See you again tomorrow.</string>
+    <string name="notFinishKicks">You did not reach your required number of kicks and time has run out.</string>
+    <string name="noAttention">I wasn\'t paying attention. Start over.</string>
+    <string name="what_now">What should I do now?</string>
+    <string name="graph">Graph of Kicks</string>
+    <string-array name="series">
+    	<item>First 2 Hours</item>
+    	<item>Second 2 Hours</item>
+    </string-array>
+    <string name="what_to_do">What you need to do now is follow all of the steps below.  After that you will count kicks again, it is really important you pay close attention.  Press the button that says "count kicks" to start counting.</string>
+    <string name="what_now_steps">1. Empty your bladder.\n\n2. Drink a glass of ice cold water.\n\n3. Sit down somewhere with no disturbances and concentrate. \n\n4. Count kicks again.</string>
+    <string name="alarm_title">Set Alarm Time</string>
+    <string name="alarm_on">Alarm on</string>
+    <string name="sound">Sound on</string>
+        <string name="vibrate">Vibrate on</string>
+        <string name="sound_vibrate">Sound and Vibrate</string>
+        <string name="set_alarm">Set Time</string>
+        <string name="info">App Info</string>
+        <string name="authors">Authors: Alicia Beckett and Priya\nDeveloper: Alicia Beckett</string>
+        <string name="purpose">Purpose of the Application: To help at-risk pregnant mothers in their ability to count fetal movements.  Bottom line, to prevent preventable still births.</string>
+    <string name="alarm_settings">Alarm Settings</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="view_graph">View Graph</string>
+    <string name="delete_data">Delete All Data</string>
+    <string name="home">Home</string>
+</resources>

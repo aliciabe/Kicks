@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical"
+android:gravity="center" android:layout_width="200dip">
+<TextView android:id="@+id/TextView02" android:layout_height="wrap_content"
+android:textColor="#fff" android:layout_width="wrap_content"
+android:layout_margin="7dip" android:gravity="center" android:text="@string/notFinishKicks"></TextView>
+<Button android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:id="@+id/OkButton" android:text="@string/noAttention"></Button>
+<Button android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:id="@+id/OkButton" android:text="@string/what_now"></Button>
+</LinearLayout>

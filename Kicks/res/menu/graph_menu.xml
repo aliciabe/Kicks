@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+         <item  android:id="@+id/home"
+          android:icon="@drawable/ic_menu_home"
+          android:title="@string/home" />
+    <item android:id="@+id/alarm"
+          android:icon="@drawable/stat_notify_alarm"
+          android:title="@string/alarm_settings" />
+    <item android:id="@+id/notification"
+          android:icon="@drawable/ic_menu_preferences"
+          android:title="@string/notification_settings" />
+     <item  android:id="@+id/delete_data"
+          android:icon="@drawable/ic_menu_delete"
+          android:title="@string/delete_data" />
+
+</menu>

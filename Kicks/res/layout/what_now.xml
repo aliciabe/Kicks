@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <ScrollView android:id="@+id/view1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent"  android:orientation="vertical" android:isScrollContainer="true" android:scrollbars="vertical">
+        
+
+        <TextView android:text="@string/what_now" android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_marginBottom="10sp" android:textStyle="bold" android:textSize="25sp" android:layout_gravity="center_horizontal"></TextView>
+        <TextView android:text="@string/what_now_steps" android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_width="wrap_content" android:textSize="20sp" android:layout_marginLeft="30sp" android:layout_margin="25sp"></TextView>
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button1" android:onClick="goKickAgain" android:layout_gravity="center_horizontal" android:text="@string/count" android:textSize="25sp"></Button>        
+
+
+    </LinearLayout>
+      		</ScrollView>
